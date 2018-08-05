@@ -1,0 +1,20 @@
+echo "Exercice-Conditional-Instructions";
+echo "<br>";
+echo "<br> <i>La <strong> note</strong> est entre 0-20 </i>";
+
+
+$note = 13;
+print "<br>";
+
+print $note;
+echo "<br>";
+
+if ($note < 10){
+    echo "<strong>échec</strong>";
+}elseif($note >= 10 && $note <12){
+    echo "Admis avec mention <strong>passable</strong>";
+}elseif($note >= 12 && $note <14){
+    echo "Admis avec mention <strong>assez bien</strong>";
+}else{
+    echo "Admis avec mention <strong>bien</strong>";
+}
